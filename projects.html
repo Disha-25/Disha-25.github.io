@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projects.css">
+    <script src="https://kit.fontawesome.com/0e6863b0de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="navbar">
+            <img src="" alt="">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#contact">Contact Us</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="header">
+        <img src="./assets/vector2.png" alt="bg">
+        <h1>Projects</h1>
+    </div>
+    <!-- -------------about section----------- -->
+    <section id="projects">
+        <div class="grid">
+            <div class="card">
+                <div class="img-part">
+                    <img src="./assets/card.png" alt="card-img">
+                </div>
+                <div class="para-part">
+                    <p class="title">Project Name</p>
+                    <p class="para">A little description about the project, a summary or a brief introduction that
+                        elucidates the project. A little description about the project, a summary or a brief
+                        introduction that elucidates the project. </p>
+                    <button class="button">View on Github  <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-part">
+                    <img src="./assets/card.png" alt="card-img">
+                </div>
+                <div class="para-part">
+                    <p class="title">Project Name</p>
+                    <p class="para">A little description about the project, a summary or a brief introduction that
+                        elucidates the project. A little description about the project, a summary or a brief
+                        introduction that elucidates the project. </p>
+                    <button class="button">View on Github <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-part">
+                    <img src="./assets/card.png" alt="card-img">
+                </div>
+                <div class="para-part">
+                    <p class="title">Project Name</p>
+                    <p class="para">A little description about the project, a summary or a brief introduction that
+                        elucidates the project. A little description about the project, a summary or a brief
+                        introduction that elucidates the project. </p>
+                    <button class="button">View on Github <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="img-part">
+                    <img src="./assets/card.png" alt="card-img">
+                </div>
+                <div class="para-part">
+                    <p class="title">Project Name</p>
+                    <p class="para">A little description about the project, a summary or a brief introduction that
+                        elucidates the project. A little description about the project, a summary or a brief
+                        introduction that elucidates the project. </p>
+                    <button class="button">View on Github  <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-part">
+                    <img src="./assets/card.png" alt="card-img">
+                </div>
+                <div class="para-part">
+                    <p class="title">Project Name</p>
+                    <p class="para">A little description about the project, a summary or a brief introduction that
+                        elucidates the project. A little description about the project, a summary or a brief
+                        introduction that elucidates the project. </p>
+                    <button class="button">View on Github <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-part">
+                    <img src="./assets/card.png" alt="card-img">
+                </div>
+                <div class="para-part">
+                    <p class="title">Project Name</p>
+                    <p class="para">A little description about the project, a summary or a brief introduction that
+                        elucidates the project. A little description about the project, a summary or a brief
+                        introduction that elucidates the project. </p>
+                    <button class="button">View on Github <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------footer----------- -->
+    <footer id="footer">
+        <p>© 2022 Disha Chouhan All Rights Reserved.</p>
+    </footer>
+
+    <!-- ---------------navbar--------------- -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
